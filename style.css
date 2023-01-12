@@ -1,0 +1,71 @@
+body{
+    background-color: #FFFADD;
+}
+
+header{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-header{
+    font-size: 40px;
+}
+
+.main-img{
+    width: 100px;
+}
+
+.netscape-wrap{
+    width: 75vw;
+}
+
+.netscape-p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.standart-wrap{
+    width: 75vw;
+    margin-left: auto;
+}
+
+.now-wrap{
+    width: 75vw;
+}
+
+.widget {
+    text-align: center;
+  }
+
+  .widget p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
+
+  .widget span {
+    font-family: monospace;
+  }
+
+  .widget button {
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .change-color{
+    border: 1px solid black;
+    background-color: transparent;
+  }
+
+
+.change-color:hover{
+    background-color: #FFFADD;
+}
